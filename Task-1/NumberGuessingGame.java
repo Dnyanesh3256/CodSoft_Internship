@@ -9,7 +9,7 @@ public class NumberGuessingGame {
         int round = 0;
         int score = 0;
         String playAgain;
-
+        
         do {
             round++;
             int targetNumber = (int)(Math.random() * (max - min + 1)) + min;
